@@ -6,26 +6,36 @@
 
 
 .navbar{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    gap: 30px;
     width: max-content;
-    height: 60px;
-    padding: 35px;
+    height: 80px;
+    padding: 30px;
+    border-bottom: 1px solid black;
 }
 
 #nav-left{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
+    font-size: 0.7rem;
+}
+
+#logo{
+    height: 70px;
+    width: 70px;
 }
 
 #nav-right{
+    font-size: 0.7rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 35px;
 }
 
@@ -50,5 +60,6 @@
     height: 35px;
     width: 50px;
     padding-left:15px;
+    padding-right: 30px;
 }
 
