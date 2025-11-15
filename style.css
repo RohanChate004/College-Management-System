@@ -21,7 +21,7 @@
      flex-direction: row;
      align-items: center;
      gap: 20px;
-     font-size: 1.2rem;
+     font-size: 0.6rem;
  }
 
  #logo {
@@ -30,11 +30,11 @@
  }
 
  #nav-right {
-     font-size: 0.8rem;
+     font-size: 0.6rem;
      display: flex;
      flex-direction: row;
      align-items: center;
-     gap: 100px;
+     gap: 50px;
  }
 
  .searchbar {
@@ -82,21 +82,22 @@
      width: 80vw;
      height: 20vh;
      margin-left: 80px;
+     margin-bottom: 200px;
      padding: 20px;
  }
 
  .buttons {
     margin-top:50px;
-     width: 100vw;
+     width: 80vw;
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 50%;
+     gap: 400px;
  }
 
  .btn {
      height: 60px;
-     width: 350px;
+     width: 250px;
      font-size: 18px;
      font-weight: bold;
      border-radius: 20px;
