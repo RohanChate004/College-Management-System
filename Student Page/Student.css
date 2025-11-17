@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+#nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+}
+
+#nav-right h1:hover {
+    cursor: pointer;
+    color: rgb(57, 3, 252);
+    transition: color 0.3s ease;
+}
+
+#search-icon:hover {
+    cursor: pointer;
+}
+
+#nav-right {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+    height: 45px;
+    width: 100%;
+    max-width: 250px;
+    padding-left: 15px;
+}
+
+#search-icon {
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 0px 15px 15px 0px;
+    height: 45px;
+    width: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    #logo {
+        height: 70px;
+        width: 70px;
+    }
+
+    #nav-left {
+        gap: 20px;
+    }
+
+    #nav-right {
+        gap: 50px;
+    }
+
+    #search {
+        max-width: 300px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .navbar {
+        padding: 30px;
+    }
+
+    #logo {
+        height: 75px;
+        width: 75px;
+    }
+
+    #nav-right {
+        gap: 100px;
+    }
+
+    #search-icon {
+        margin-right: 30px;
+    }
+
+    .image1 {
+        height: 50vh;
+    }
+    }
+
+
+    /* main content */
+
+    /* Welcome section */
+    .wc-std{
+        line-height: 2.2rem;
+        font-size: 1.2em;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 20px;
+        padding: 20px;
+        color: brown;
+        margin-top: 160px;
+    }
+
+    .wc-std p{
+        margin-left: 50px;
+        line-height: 2.2rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: black;
+    }
+
+    /* Student tools section */
+
+    .std-tools h2{
+        color: brown;
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 40px;    
+    }
+
+
+
+    #std-tools{
+        justify-self: center;
+        height:max-content;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .box{
+        border: 2px solid rgb(49, 206, 218);
+        border-radius: 15px;
+        height: max-content;
+        width: 400px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 100px ;
+        gap: 20px;
+        cursor: pointer;
+        box-shadow: rgba(3, 243, 243, 0.329) 0px 0px 10px 0px;
+    }
+
+    .box h2{
+        font-size: 1.8rem;
+        color: rgb(22, 7, 151);
+    }
+
+    .box p{
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    
