@@ -27,25 +27,38 @@ A modern, responsive, and efficient College Management System designed to simpli
 <ol>
 <li>🧑‍🎓 For Students</li>
 
-View results, timetables, and attendance
+<ul>
+<li>View results, timetables, and attendance</li>
 
-Access study materials and academic updates
+<li>Access study materials and academic updates</li>
 
-Stay informed with official notices and events
+<li>Stay informed with official notices and events</li>
+
+<li>Stay informed with official notices and events</li>
+
+</ul>
+
 
 <li>🧑‍🏫 For Faculty</li>
 
-Post results, announcements, and resources
+<ul>
+    
+<li>Post results, announcements, and resources</li>
 
-Manage department information and student data
+<li>Manage department information and student data</li>
+
+</ul>
 
 <li>🤝 For Alumni</li>
 
-Share success stories and professional achievements
+<ul>
+<li>Share success stories and professional achievements</li>
 
-Network with peers and participate in college events
+<li>Network with peers and participate in college events</li>
 
-Post internships and collaboration opportunities
+<li>Post internships and collaboration opportunities</li>
+
+</ul>
 </ol>
 
 <b>💡 Technologies Used</b>
