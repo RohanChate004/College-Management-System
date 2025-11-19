@@ -1,27 +1,31 @@
-# College-Management-System
+<b># College-Management-System
 
-🎓 College Management System
+🎓 College Management System</b>
 
 A modern, responsive, and efficient College Management System designed to simplify academic and administrative tasks. It centralizes student data, academic resources, and alumni connections — all in one digital platform.
 
-🏫 Overview
+<b>🏫 Overview</b>
 
-This project provides a user-friendly interface for managing college operations, including:
+<b>This project provides a user-friendly interface for managing college operations, including:</b>
 
-Student and alumni information
+<ul>
+<li>Student and alumni information</li>
 
-Academic performance tracking
+<li>Academic performance tracking</li>
 
-Departmental resources and events
+<li>Departmental resources and events</li>
 
-Notices, results, and attendance monitoring
+<li>Notices, results, and attendance monitoring</li>
 
-Career updates and internship opportunities
+<li>Career updates and internship opportunities</li>
 
-It serves as an all-in-one hub for students, faculty, and administrators to collaborate efficiently.
+<li>It serves as an all-in-one hub for students, faculty, and administrators to collaborate efficiently.</li>
+</ul>
 
-🌐 Key Features
-🧑‍🎓 For Students
+<b>🌐 Key Features</b>
+
+<ol>
+<li>🧑‍🎓 For Students</li>
 
 View results, timetables, and attendance
 
@@ -29,22 +33,23 @@ Access study materials and academic updates
 
 Stay informed with official notices and events
 
-🧑‍🏫 For Faculty
+<li>🧑‍🏫 For Faculty</li>
 
 Post results, announcements, and resources
 
 Manage department information and student data
 
-🤝 For Alumni
+<li>🤝 For Alumni</li>
 
 Share success stories and professional achievements
 
 Network with peers and participate in college events
 
 Post internships and collaboration opportunities
+</ol>
 
-💡 Technologies Used
-Category	Tools / Frameworks
+<b>💡 Technologies Used</b>
+<b>Category	Tools / Frameworks</b>
 Frontend	HTML5, CSS3, JavaScript
 Backend	(Optional) Node.js / PHP / Python (depending on implementation)
 Database	MySQL / Firebase / MongoDB
@@ -52,7 +57,7 @@ Version Control	Git & GitHub
 UI Design	Responsive and Minimal
 
 
-🗂️ Folder Structure
+<b>🗂️ Folder Structure</b>
 College-Management/
 │
 ├── index.html
