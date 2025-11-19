@@ -70,20 +70,21 @@ Version Control	Git & GitHub
 UI Design	Responsive and Minimal
 
 
-<b>🗂️ Folder Structure</b>
-College-Management/
-│
-├── index.html
-├── about.html
-├── departments.html
-├── students.html
-├── alumni.html
-├── style/
-│   ├── main.css
-│   └── responsive.css
-├── scripts/
-│   ├── main.js
-│   └── utilities.js
-└── assets/
-    ├── images/
-    └── icons/
+<b>🗂️ Folder Structure</b><br>
+College-Management/<br>
+│<br>
+├── index.html<br>
+├── about.html<br>
+├── departments.html<br>
+├── students.html<br>
+├── alumni.html<br>
+├── style/<br>
+│   ├── main.css<br>
+│   └── responsive.css<br>
+├── scripts/<br>
+│   ├── main.js<br>
+│   └── utilities.js<br>
+└── assets/<br>
+    ├── images/<br>
+    └── icons/<br>
+
