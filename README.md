@@ -62,12 +62,12 @@ A modern, responsive, and efficient College Management System designed to simpli
 </ol>
 <br>
 <b>💡 Technologies Used</b><br><br>
-<b>Category	Tools</t> / Frameworks</b><br>
-Frontend</t>	HTML5, CSS3, JavaScript<br>
-Backend	(Optional)</t> Node.js / PHP / Python (depending on implementation)<br>
-Database</t>	MySQL / Firebase / MongoDB<br>
-Version</t> Control	Git & GitHub<br>
-UI Design</t>	Responsive and Minimal<br>
+<b>Category	Tools &emsp14 / Frameworks</b><br><br>
+Frontend &emsp14	HTML5, CSS3, JavaScript<br>
+Backend	(Optional)&emsp14 Node.js / PHP / Python (depending on implementation)<br>
+Database &emsp14	MySQL / Firebase / MongoDB<br>
+Version Control &emsp14	Git & GitHub<br>
+UI Design &emsp14 Responsive and Minimal<br><br>
 
 
 <b>🗂️ Folder Structure</b><br>
