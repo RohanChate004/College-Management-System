@@ -312,6 +312,7 @@
 }
 
 .std-img {
+    aspect-ratio: 1/1;
     height: 80px;
     width: 80px;
     background-color: antiquewhite;
