@@ -161,7 +161,7 @@
     color: rgb(63, 57, 57);
 }
 
-/* Student tools section */
+/* Student tools section &  Announcements Section */
 
 .std-tools h2 {
     color: rgb(0, 0, 0);
@@ -184,6 +184,7 @@
 
 
 #std-tools {
+    margin-top: 20px;
     justify-self: center;
     height: max-content;
     width: 80%;
@@ -194,36 +195,7 @@
     justify-content: center;
 }
 
-.box {
-    border: 2px solid rgb(163, 238, 243);
-    border-radius: 15px 0px;
-    height: max-content;
-    width: 500px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px 100px;
-    gap: 20px;
-    cursor: pointer;
-    /* box-shadow: rgba(3, 243, 243, 0.329) 0px 0px 10px 0px; */
-}
-
-.box h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: rgb(163, 97, 224);
-    margin-top: 20px;
-}
-
-.box p {
-    font-size: 1.2rem;
-    text-align: center;
-    color: rgb(63, 58, 58);
-}
-
-/* Announcements Section */
-.announcement {
+.announcement{
     max-width: 100%;
     width: 100%;
     display: flex;
@@ -257,14 +229,14 @@
 
 }
 
-.ann-items {
+.ann-items, #std-tools {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 100px;
 }
 
-.announcement-item {
+.announcement-item, .box {
     padding: 30px 25px;
     border: 1px solid #e0e0e0;
     display: flex;
@@ -277,8 +249,13 @@
     border-radius: 0px 15px 0px 15px;
 }
 
+.box {
+    border: 2px solid rgb(163, 238, 243);
+    border-radius: 15px 0px;
+    cursor: pointer; 
+}
 
-.announcement-item h2 {
+.announcement-item h2, .box h2 {
     font-size: 1.8rem;
     color: #2d3748;
     margin-bottom: 10px;
@@ -289,16 +266,23 @@
     transition: color 0.3s ease;
 }
 
-
-
-.announcement-item p {
+.announcement-item p, .box p {
     color: #4a5568;
     line-height: 1.6;
     font-size: 1.2rem;
     font-weight: 400;
 }
 
+.box h2 {
+    font-weight: 700;
+    color: rgb(163, 97, 224);
+    margin-top: 20px;/
+}
 
+.box p {
+    text-align: center;
+    color: rgb(63, 58, 58);
+}
 
 /* Responsive Design */
 @media (max-width: 600px) {
