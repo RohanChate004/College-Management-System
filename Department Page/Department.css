@@ -92,6 +92,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px; /* Adjust this value to match your navbar height */
 }
 
 #dept-name {
@@ -102,11 +103,10 @@
     padding: 30px;
     height: fit-content;
     width: fit-content;
-    background-color:hsl(46.81deg 81.5% 66.08%);
-    fill-opacity: 0.5;
+    background-color: hsl(46.81deg 81.5% 66.08%);
+    opacity: 0.9; /* Changed from fill-opacity which doesn't work on divs */
     z-index: 10;
 }
-
 
 /* Tablet Styles */
 @media (min-width: 768px) {
