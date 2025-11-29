@@ -98,16 +98,18 @@
     height: auto;
     min-height: 200px;
     margin-top: 180px;
-    border: 2px solid rgba(15, 161, 197, 0.712);
-    border-radius: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
 }
 
+
+
 .story {
-    width: 70%;
+    width: 60%;
     height: auto;
     min-height: 200px;
     border: 2px solid rgba(15, 161, 197, 0.712);
@@ -115,41 +117,92 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
     overflow: hidden;
-    gap: 20px;
+    gap: 0;
+    background: white;
+    transition: transform 0.3s ease;
 }
+
 
 .story img {
     width: 40%;
     height: 100%;
     min-height: 200px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
     object-fit: cover;
-    border:1px solid rgba(15, 161, 197, 0.712);
-    border-right:none ;
+    border: none;
+    transition: transform 0.3s ease;
 }
+
+
 
 #story {
     width: 60%;
     height: 100%;
-    padding: 20px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     justify-content: center;
-    /* gap: 20px; */
 }
 
 
-#story li{
-    line-height: 2em;
-    font-size: 1.2em;
-    list-style-type:square ;
+#story li {
+    line-height: 2.2em;
+    font-size: 1.1em;
+    list-style-type: square;
     margin-left: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.dashboard {
+    width: 35%;
+    height: auto;
+    min-height: 200px;
+    border: 2px solid rgba(15, 161, 197, 0.712);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 0;
+    padding: 0;
+    background: white;
+}
+
+.dash-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(15, 161, 197, 0.2);
+    transition: all 0.3s ease;
+}
+
+.dash-item:last-child {
+    border-bottom: none;
+}
+
+
+.dash-item h2 {
+    font-size: 2em;
     font-weight: bold;
-    letter-spacing: 1px;
+    color: rgba(15, 161, 197, 1);
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+
+.dash-item p {
+    font-size: 1em;
+    font-weight: 500;
+    color: #666;
+    margin: 0;
+    text-align: center;
 }
 
 /* Large Desktop (1400px and above) */
@@ -157,6 +210,7 @@
     .highlight-sec {
         min-height: 300px;
         margin-top: 200px;
+        gap: 25px;
     }
     
     .story {
@@ -168,9 +222,24 @@
     }
     
     #story {
-        padding: 30px;
-        gap: 15px;
-        font-size: 1.5em;
+        padding: 35px;
+    }
+    
+    #story li {
+        font-size: 1.3em;
+        line-height: 2.5em;
+    }
+    
+    .dashboard {
+        min-height: 300px;
+    }
+    
+    .dash-item h2 {
+        font-size: 2.5em;
+    }
+    
+    .dash-item p {
+        font-size: 1.1em;
     }
 }
 
@@ -178,6 +247,7 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
     .highlight-sec {
         min-height: 250px;
+        gap: 20px;
     }
     
     .story {
@@ -189,77 +259,159 @@
     }
     
     #story {
-        padding: 25px;
-        gap: 12px;
-        font-size: 1.35em;
+        padding: 30px;
+    }
+    
+    #story li {
+        font-size: 1.15em;
+    }
+    
+    .dashboard {
+        min-height: 250px;
     }
 }
 
-/* Tablet (769px to 1199px) */
-@media (min-width: 769px) and (max-width: 1199px) {
+/* Tablet Landscape (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
     .highlight-sec {
-        margin-top: 180px;
+        margin-top: 150px;
+        gap: 15px;
     }
     
     .story {
-        width: 85%;
+        width: 58%;
     }
     
-    #story {
-        font-size: 1.1em;
-    }
-}
-
-/* Tablet (768px and below) */
-@media (max-width: 768px) {
-    .highlight-sec {
-        margin-top: 180px;
-        flex-direction: column;
-        padding: 15px;
+    .dashboard {
+        width: 38%;
     }
     
-    .story {
-        width: 100%;
-        min-height: 300px;
-        flex-direction: column;
-    }
-    
-    .story img {
-        width: 100%;
-        height: 200px;
-        min-height: 200px;
-        border-radius: 15px 15px 0 0;
-        border-bottom-left-radius: 0;
-    }
-    
-    #story {
-        width: 100%;
-        padding: 15px;
-        align-items: center;
-        text-align: center;
+    #story li {
         font-size: 1em;
+        line-height: 2em;
+    }
+    
+    .dash-item h2 {
+        font-size: 2em;
     }
 }
 
-/* Mobile (480px and below) */
-@media (max-width: 480px) {
+/* Tablet Portrait (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .highlight-sec {
+        margin-top: 120px;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .story {
+        width: 100%;
+        min-height: 250px;
+    }
+    
+    .story img {
+        width: 35%;
+        min-height: 250px;
+    }
+    
+    #story {
+        width: 65%;
+        padding: 20px;
+    }
+    
+    .dashboard {
+        width: 100%;
+        flex-direction: row;
+        min-height: auto;
+    }
+    
+    .dash-item {
+        border-bottom: none;
+        border-right: 2px solid rgba(15, 161, 197, 0.2);
+        padding: 30px 20px;
+    }
+    
+    .dash-item:last-child {
+        border-right: none;
+    }
+}
+
+/* Mobile (below 768px) */
+@media (max-width: 767px) {
+    .highlight-sec {
+        margin-top: 100px;
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+    
+    .story {
+        width: 100%;
+        min-height: 280px;
+        flex-direction: column;
+    }
+    
+    .story img {
+        width: 100%;
+        height: 180px;
+        min-height: 180px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    #story {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #story li {
+        font-size: 1em;
+        line-height: 2em;
+    }
+    
+    .dashboard {
+        width: 100%;
+    }
+    
+    .dash-item {
+        padding: 25px;
+    }
+}
+
+/* Small Mobile (below 480px) */
+@media (max-width: 479px) {
     .highlight-sec {
         margin-top: 60px;
         padding: 10px;
     }
     
     .story {
-        min-height: 250px;
+        min-height: 240px;
     }
     
     .story img {
-        height: 150px;
-        min-height: 150px;
+        height: 140px;
+        min-height: 140px;
     }
     
     #story {
-        padding: 10px;
+        padding: 15px;
+    }
+    
+    #story li {
         font-size: 0.9em;
-        gap: 8px;
+        line-height: 1.8em;
+    }
+    
+    .dash-item {
+        padding: 18px;
+    }
+    
+    .dash-item h2 {
+        font-size: 1.8em;
+    }
+    
+    .dash-item p {
+        font-size: 0.9em;
     }
 }
